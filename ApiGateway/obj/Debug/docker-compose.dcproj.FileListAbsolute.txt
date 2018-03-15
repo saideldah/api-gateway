@@ -1,0 +1,2 @@
+c:\users\saide\Source\Repos\ApiGateway\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\GitHub\api-gateway\ApiGateway\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

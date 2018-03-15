@@ -1,0 +1,11 @@
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.deps.json
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.json
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.dev.json
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.dll
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.pdb
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csprojResolveAssemblyReference.cache
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csproj.CoreCompileInputs.cache
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfoInputs.cache
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfo.cs
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.dll
+c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.pdb
