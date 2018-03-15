@@ -9,3 +9,14 @@ c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGat
 c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfo.cs
 c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.dll
 c:\users\saide\Source\Repos\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.pdb
+C:\DEV\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.deps.json
+C:\DEV\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.json
+C:\DEV\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.dev.json
+C:\DEV\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.dll
+C:\DEV\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.pdb
+C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csprojResolveAssemblyReference.cache
+C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfoInputs.cache
+C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfo.cs
+C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.dll
+C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.pdb
