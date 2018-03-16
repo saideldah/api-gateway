@@ -42,29 +42,27 @@ namespace ApiGateway
             {
 
                 res.AppendLine($"redirectUri = {serviceUri}");
-                var client = new HttpClient
+                var httpClient = new HttpClient
                 {
-                    Timeout = TimeSpan.FromMinutes(3)
+                    Timeout = TimeSpan.FromMinutes(2)
                 };
-                //var message = new HttpRequestMessage(new HttpMethod(context.Request.Method), serviceUri);
-                //await AddRequestHeaders(message.Headers, context.Request.Headers, serviceName);
-                //await AddRequest(message, context.Request);
                 HttpResponseMessage response;
                 switch (context.Request.Method)
                 {
                     case "GET":
-                        response = await client.GetAsync(serviceUri);
+                        response = await httpClient.GetAsync(serviceUri);
                         break;
                     case "POST":
-                        response = await client.PostAsync(serviceUri, new StreamContent(context.Request.Body));
+                        response = await httpClient.PostAsync(serviceUri, new StreamContent(context.Request.Body));
                         break;
                     case "PUT":
-                        response = await client.PutAsync(serviceUri, new StreamContent(context.Request.Body));
+                        response = await httpClient.PutAsync(serviceUri, new StreamContent(context.Request.Body));
                         break;
                     case "DELETE":
-                        response = await client.DeleteAsync(serviceUri);
+                        response = await httpClient.DeleteAsync(serviceUri);
                         break;
                     default:
+                        //To Do: implement patch, head and connect
                         response = new HttpResponseMessage();
                         break;
                 }
@@ -79,7 +77,6 @@ namespace ApiGateway
                 {
                     await context.Response.WriteAsync("err");
                 }
-                //await context.Response.WriteAsync(res.ToString());
             }
             else
             {
