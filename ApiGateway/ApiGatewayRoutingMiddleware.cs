@@ -17,7 +17,7 @@ namespace ApiGateway
         private readonly Dictionary<string, string> _apps = new Dictionary<string, string>
         {
             ["app1"] = "http://172.26.194.12",
-            ["app2"] = "www.app2.com",
+            ["app2"] = "https://jsonplaceholder.typicode.com",
             ["app3"] = "www.app3.com",
             ["app4"] = "www.app4.com"
         };
