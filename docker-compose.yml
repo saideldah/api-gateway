@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  apigateway:
+    image: apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway\Dockerfile
