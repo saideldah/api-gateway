@@ -4,6 +4,7 @@ using System;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ApiGateway
@@ -11,20 +12,19 @@ namespace ApiGateway
     public class ApiGatewayRoutingMiddleware
     {
         #region private fields
-        private readonly RequestDelegate _next; 
+        private readonly RequestDelegate _next;
         #endregion
         #region ctor
         public ApiGatewayRoutingMiddleware(RequestDelegate next)
         {
             _next = next;
-        } 
+        }
         #endregion
         #region public methods
         public async Task InvokeAsync(HttpContext context)
         {
 
-            var path = await GetPath(context.Request.Path);
-            var pathValues = path.Split("/");
+            var path = context.Request.Path != null ? context.Request.Path.Value.ToString() : string.Empty;
             var serviceName = await GetServiceName(path);
             if (Helper.Applications.Keys.Any(k => k == serviceName))
             {
@@ -46,10 +46,10 @@ namespace ApiGateway
                 await context.Response.WriteAsync("not found");
             }
             await _next(context);
-        } 
+        }
         #endregion
         #region Private Methods
-      
+
         private async Task<HttpContext> MapResponse(HttpResponseMessage response, HttpContext context)
         {
             //foreach (var header in response.Headers)
@@ -98,34 +98,30 @@ namespace ApiGateway
             }
             return response;
         }
-        private async Task<string> GetPath(PathString path)
-        {
-            // to do make it reg ex
-            var p = path != null ? path.Value.ToString() : string.Empty;
-            p = p.Remove(0, 1);
-            return p;
-        }
         private async Task<string> GetServiceName(string path)
         {
-            // to do make it reg ex
-            var pathValues = path.Split("/");
-            return pathValues[0];
+            Regex regex = new Regex("/app/([A-Za-z0-9_-]+)/");
+            Match match = regex.Match(path);
+            if (match.Success)
+            {
+                return match.Groups[1].Value;
+            }
+            return null;
         }
         private async Task<string> GetServiceUri(string serviceName, string path)
         {
-
-            path = "$" + path;
-            // to do make it reg ex
             if (Helper.Applications.Keys.Any(k => k == serviceName))
             {
-                var serviceUri = path.Replace($"${serviceName}", Helper.Applications[serviceName]);
-                return serviceUri;
+                Regex regex = new Regex($@"/app/{serviceName}/([A-Za-z0-9/?&=\s_-]+)");
+                Match match = regex.Match(path);
+                if (match.Success)
+                {
+                    var serviceUri = $"{Helper.Applications[serviceName]}/{match.Groups[1].Value}";
+                    return serviceUri;
+                }
             }
-            else
-            {
-                return null;
-            }
-        } 
+            return null;
+        }
         #endregion
     }
 }
