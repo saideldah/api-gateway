@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  apigateway:
+    build:
+      context: C:\GitHub\api-gateway\ApiGateway
+      dockerfile: ApiGateway\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apigateway
+    ports:
+    - 80/tcp
+version: '3.0'

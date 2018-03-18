@@ -20,3 +20,13 @@ C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.Asse
 C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfo.cs
 C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.dll
 C:\DEV\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.pdb
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.deps.json
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.json
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.dev.json
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.dll
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.pdb
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfoInputs.cache
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfo.cs
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.dll
+C:\GitHub\api-gateway\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.pdb
