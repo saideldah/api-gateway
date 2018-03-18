@@ -35,6 +35,7 @@ C:\GitHub\api-gateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfi
 C:\GitHub\api-gateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.runtimeconfig.dev.json
 C:\GitHub\api-gateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.dll
 C:\GitHub\api-gateway\ApiGateway\bin\Debug\netcoreapp2.0\ApiGateway.pdb
+C:\GitHub\api-gateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csprojResolveAssemblyReference.cache
 C:\GitHub\api-gateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.csproj.CoreCompileInputs.cache
 C:\GitHub\api-gateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfoInputs.cache
 C:\GitHub\api-gateway\ApiGateway\obj\Debug\netcoreapp2.0\ApiGateway.AssemblyInfo.cs
